@@ -76,7 +76,7 @@ public class First_Calculator extends JFrame {
                     sb.append(expr.charAt(i));
                     i++;
                 }
-                currentNumber = Double.parseDouble(sb.toString()); //
+                currentNumber = Double.parseDouble(sb.toString()); 
                 i--; 
             }
 
