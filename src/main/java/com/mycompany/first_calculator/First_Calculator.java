@@ -83,12 +83,12 @@ public class First_Calculator extends JFrame {
             if (c == '+' || c == '-' || c == '*' || c == '/' || i == expr.length() - 1) {
                 switch (operation) {
                     case '+':
-                          result += lastNumber; //0+0=0
-                        lastNumber = currentNumber; //8
+                          result += lastNumber; 
+                        lastNumber = currentNumber; 
                         break;
                     case '-':
-                        result += lastNumber; //0+8=8
-                        lastNumber = -currentNumber; //-7
+                        result += lastNumber;
+                        lastNumber = -currentNumber;
                         break;
                     case '*':
                         lastNumber *= currentNumber;
@@ -97,7 +97,7 @@ public class First_Calculator extends JFrame {
                         lastNumber /= currentNumber;
                         break;
                 }
-                operation = c;//-*
+                operation = c;
                 currentNumber = 0;
             }
             i++;
